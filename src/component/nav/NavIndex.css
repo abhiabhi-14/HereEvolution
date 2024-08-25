@@ -1,0 +1,21 @@
+.navhead{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: larger;
+    font-style: normal;
+}
+.p-dropdown-item-label{
+    color:aliceblue
+}
+.p-dropdown-item-label:hover{
+    color: rgb(0, 157, 255);
+}
+.p-icon{
+    display: none;
+}
+.p-dropdown-items{
+    background-color:black;
+    opacity: 70%;
+    border-radius: 10px;
+    padding: 8px;
+}

@@ -1,0 +1,64 @@
+/* ImageSection.css */
+
+/* Define the animation for text sliding in */
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(100px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Additional styling for the section */
+  .section {
+    position: relative;
+    top: -2%;
+  }
+  
+  /* Styling for the background image */
+  .section::before {
+    content: '';
+    position: absolute;
+    top: -2%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  }
+  
+  /* Styling for the heading */
+  .imgHeading {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    /* margin-bottom: 20px; */
+    color: azure;
+    font-size: 5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8); /* Text shadow for better readability */
+  }
+  
+  /* Styling for the welcome text */
+  p {
+    letter-spacing: 1px;
+    font-size: 3rem;
+    color: rgb(195, 195, 195);
+  }
+  
+  /* Apply slideIn animation to the heading */
+  .imgHeading {
+    animation: slideIn 1s ease-in-out;
+  }
+  
+  /* Apply slideIn animation to the paragraph */
+  p {
+    animation: slideIn 1s ease-in-out;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
