@@ -1,0 +1,5 @@
+.leaflet-routing-container, .leaflet-bar, .leaflet-control{
+    background-color: aliceblue;
+    opacity:70%;
+    padding:20px;
+}

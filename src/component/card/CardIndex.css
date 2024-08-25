@@ -1,0 +1,22 @@
+.wrapper{
+    margin-left: 11%;
+    padding: 0;
+    box-sizing: border-box;
+}
+.slick-slide> div{
+    margin:0 10px;
+}
+/* Add this CSS to your stylesheet */
+.slider .group .absolute {
+    /* Initially hide the text */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .slider .group:hover .absolute {
+    /* Show the text when the group is hovered over */
+    opacity: 1;
+  }
+  button{
+    filter:invert(100%)
+  }

@@ -1,0 +1,22 @@
+.aboutPageImg{
+    height: 80vh;
+    width: 100vw;
+ 
+}
+.text{
+    position: absolute;
+    top: 20%;
+    height: 40%;
+    width: 60%;
+    margin-left: 5%;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size:1.8rem;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.textheading{
+    font-size: 5rem;
+}
+
